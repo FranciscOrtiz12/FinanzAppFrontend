@@ -12,7 +12,7 @@ export const AppRouter = () => {
 
             {
                 ( status === 'authenticated' )
-                ? <Route  path="/*" element={ <FinanZapRoutes /> }/>
+                ? <Route path="/*" element={ <FinanZapRoutes /> }/>
                 : <Route path="/auth/*" element={ <AuthRoutes /> }/>
             }
 
